@@ -14,28 +14,55 @@ body {
 /* Sidebar */
 .sidebar {
     width: 260px;
-    background-color: rosybrown; 
+    background-color: rosybrown;
     padding: 20px;
     height: 100vh;
     position: fixed;
     left: 0;
     top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Sidebar Text */
+/* Sidebar Profile Image */
+.profile-img {
+    width: 140px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Sidebar Name */
 .sidebar h2 {
     font-size: 26px;
     text-align: center;
     color: white;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
+/* Line Under Name */
+.sidebar h2::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto 0;
+}
+
+/* Sidebar Navigation */
 .sidebar nav ul {
     list-style: none;
     padding: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .sidebar nav ul li {
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 .sidebar nav ul li a {
@@ -43,16 +70,21 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s ease;
 }
 
 .sidebar nav ul li a:hover {
     text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 
 /* Main Content */
 .content {
     margin-left: 280px;
-    padding: 50px;
+    padding: 60px;
     text-align: center;
     max-width: 90%;
 }
@@ -92,16 +124,8 @@ ul {
 }
 
 /* Image Adjustments */
-.profile-img {
-    width: 150px; /* Adjusted smaller size */
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-/* About Me Image - moved to the bottom */
 .profile-img-large {
-    width: 60%; /* Bigger image */
+    width: 50%; /* Adjusted image size */
     display: block;
     margin: 40px auto;
     border-radius: 10px;
@@ -124,6 +148,7 @@ ul {
     margin: 30px auto;
 }
 
+/* Contact Links */
 .contact-list a {
     color: darkred;
     font-weight: bold;
@@ -167,10 +192,15 @@ h1, h2 {
     margin: auto;
 }
 
-/* Fix Fun Facts */
+/* Fun Facts Section */
 .fun-facts {
     text-align: center;
     font-size: 26px;
     line-height: 1.8;
 }
 
+/* Custom Bold Styling */
+.bold-text {
+    font-weight: bold;
+    color: blush pink;
+}
