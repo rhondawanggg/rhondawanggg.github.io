@@ -1,3 +1,4 @@
+/* General Page Styling */
 body {
     display: flex;
     font-family: Arial, sans-serif;
@@ -7,13 +8,20 @@ body {
     padding: 0;
 }
 
+/* Sidebar Styling */
 .sidebar {
-    width: 230px;
+    width: 260px; /* Slightly wider for better readability */
     background-color: #8b5f65;
-    padding: 20px;
+    padding: 25px;
     height: 100vh;
     position: fixed;
     left: 0;
+    text-align: center;
+}
+
+.sidebar h2 {
+    font-size: 26px; /* Make the name stand out more */
+    margin-bottom: 15px;
 }
 
 .sidebar nav ul {
@@ -21,21 +29,78 @@ body {
     padding: 0;
 }
 
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
 .sidebar nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 18px; /* Bigger links for better navigation */
 }
 
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
 .content {
-    margin-left: 250px;
-    padding: 40px;
+    margin-left: 280px; /* Adjust margin to match sidebar width */
+    padding: 50px;
+    max-width: 900px;
+    line-height: 1.8; /* Better spacing for readability */
 }
 
+/* Headings */
 h1 {
-    color: white;
+    font-size: 36px; /* Bigger for a professional look */
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 20px; /* Increased size for better readability */
+    margin-bottom: 15px;
+}
+
+/* Contact List */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .contact-list a:hover {
     text-decoration: underline;
 }
+
+/* Images */
+.profile-img {
+    width: 150px; /* Make profile image slightly bigger */
+    border-radius: 50%;
+}
+
+.profile-img-large {
+    width: 60%; /* Adjusted size for better balance */
+    display: block;
+    margin: 30px auto; /* Centering */
+    border-radius: 10px;
+}
+
