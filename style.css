@@ -87,7 +87,7 @@ body {
 
 /* Headings */
 h1 {
-    font-size: 45px; 
+    font-size: 48px; 
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
@@ -96,11 +96,11 @@ h1 {
 
 /* Smaller headings for Projects and Fun Facts */
 .projects-title {
-    font-size: 35px; 
+    font-size: 28px; 
 }
 
 .fun-facts-title {
-    font-size: 35px; 
+    font-size: 28px; 
 }
 
 /* Paragraph Styling */
@@ -113,9 +113,9 @@ p {
 
 /* Bullet Points Styling */
 ul {
-    font-size: 26px;
+    font-size: 28px;
     list-style-type: circle;
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
     max-width: 80%;
     color: black;
