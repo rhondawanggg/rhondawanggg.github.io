@@ -159,10 +159,16 @@ ul {
 .contact-list a {
     color: firebrick; 
     font-weight: bold;
+    text-decoration: none;
 }
 
 .contact-list a:hover {
     text-decoration: underline;
+}
+
+/* Email Link Color Fix */
+.contact-list a[href^="mailto:"] {
+    color: royalblue; 
 }
 
 /* Buttons */
@@ -199,6 +205,20 @@ h1, h2 {
     margin: auto;
 }
 
+/* Methods & Tools Used - Centering */
+.methods-tools {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+/* Center Methods & Tools list */
+.methods-tools ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
 /* Fun Facts Section */
 .fun-facts {
     text-align: center;
@@ -206,9 +226,4 @@ h1, h2 {
     line-height: 1.8;
 }
 
-/* Custom Bold Styling */
-.bold-text {
-    font-weight: bold;
-    color: blush pink;
-}
 
