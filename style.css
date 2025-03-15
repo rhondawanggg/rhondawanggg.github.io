@@ -1,9 +1,12 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Quicksand:wght@300;400;600&display=swap');
+
 /* General Styling */
 body {
     display: flex;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Quicksand', sans-serif; 
     background-color: mistyrose; 
-    color: black;
+    color: saddlebrown; 
     margin: 0;
     padding: 0;
 }
@@ -11,7 +14,7 @@ body {
 /* Sidebar */
 .sidebar {
     width: 280px;
-    background-color: rosybrown; 
+    background-color: rosybrown;
     padding: 20px;
     height: 100vh;
     position: fixed;
@@ -34,7 +37,7 @@ body {
 .sidebar h2 {
     font-size: 28px;
     text-align: center;
-    color: white;
+    color: white; 
     position: relative;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -46,7 +49,7 @@ body {
     display: block;
     width: 80%;
     height: 3px;
-    background-color: white;
+    background-color: white; 
     margin: 5px auto 0;
 }
 
@@ -62,7 +65,7 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: white;
+    color: white; 
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
@@ -73,7 +76,7 @@ body {
 
 .sidebar nav ul li a:hover {
     text-decoration: underline;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: lightcoral;
     border-radius: 5px;
 }
 
@@ -87,38 +90,38 @@ body {
 
 /* Headings */
 h1 {
-    font-size: 48px; 
+    font-size: 52px; 
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
-    color: darkslategray;
+    color: darkslategray; 
 }
 
 /* Smaller headings for Projects and Fun Facts */
 .projects-title {
-    font-size: 28px; 
+    font-size: 42px; 
 }
 
 .fun-facts-title {
-    font-size: 28px; 
+    font-size: 40px; 
 }
 
 /* Paragraph Styling */
 p {
-    font-size: 28px;
+    font-size: 26px;
     line-height: 1.9;
     margin-bottom: 25px;
-    color: black;
+    color: sienna; 
 }
 
 /* Bullet Points Styling */
 ul {
-    font-size: 28px;
+    font-size: 26px;
     list-style-type: circle;
     text-align: center;
     margin: 0 auto;
     max-width: 80%;
-    color: black;
+    color: peru; 
 }
 
 /* Remove bullet points for contact section */
@@ -136,7 +139,7 @@ ul {
     display: block;
     margin: 50px auto;
     border-radius: 10px;
-    border: 6px solid lightpink; 
+    border: 6px solid pink; 
 }
 
 /* Fun Facts Page - Center Hockey Image */
@@ -170,8 +173,8 @@ ul {
 /* Buttons */
 .button {
     display: inline-block;
-    background-color: lightpink;
-    color: black;
+    background-color: lightpink; 
+    color: darkslategray; 
     padding: 15px 30px;
     margin-top: 25px;
     text-decoration: none;
@@ -182,7 +185,7 @@ ul {
 }
 
 .button:hover {
-    background-color: pink;
+    background-color: thistle; 
 }
 
 /* Section Borders */
@@ -227,8 +230,7 @@ h1, h2 {
 /* Custom Bold Styling */
 .bold-text {
     font-weight: bold;
-    color: blush pink;
+    color: rosybrown; 
 }
-
 
 
