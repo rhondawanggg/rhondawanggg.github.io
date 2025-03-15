@@ -87,7 +87,7 @@ body {
 
 /* Headings */
 h1 {
-    font-size: 50px; /* Larger for "About Me" */
+    font-size: 50px; 
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
@@ -96,11 +96,11 @@ h1 {
 
 /* Smaller headings for Projects and Fun Facts */
 .projects-title {
-    font-size: 42px; 
+    font-size: 38px; 
 }
 
 .fun-facts-title {
-    font-size: 38px; /* Slightly smaller */
+    font-size: 38px; 
 }
 
 /* Paragraph Styling */
@@ -164,11 +164,6 @@ ul {
 
 .contact-list a:hover {
     text-decoration: underline;
-}
-
-/* Email Link Color Fix */
-.contact-list a[href^="mailto:"] {
-    color: royalblue; 
 }
 
 /* Buttons */
